@@ -51,7 +51,3 @@ I used [Git](https://git-scm.com/) and [GitHub](http://github.com/) for versioni
 ## Authors
 
 * **Teemu Tannerma** - *Initial work* - [ttannerma](https://github.com/ttannerma)
-
-## Acknowledgments
-
-* Andrew Mead - This project was made on a udemy course from Andrew Mead.
