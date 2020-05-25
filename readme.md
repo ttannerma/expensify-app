@@ -1,52 +1,36 @@
-# Indecision App
+# Expensify App
 
 Indecision app lets you add todo's and then you can let the app decide what you should do!
 
-## Getting Started
+# Getting started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+## Clone the repo 
+`git clone https://github.com/ttannerma/expensify-app.git`
+<br>
+`cd expensify-app`
 
-### Prerequisites
+## Installing packages
+run `npm install` to install packages
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+## Development server
+To launch development server: `npm run dev-server` in root directory.
+<br>
+Then open browser with localhost:8080
 
 ## Built With
 
 * [React.js] (https://reactjs.org/)
-* [SCSS] (https://sass-lang.com/)
+* [SASS] (https://sass-lang.com/)
 * [WebPack] (https://webpack.js.org/)
+* [Redux](https://redux.js.org/)
 * [NPM] (https://npmjs.com/)
 * [Babel] (https://babeljs.io/)
+* [Firebase] (https://firebase.google.com/)
 
 ## Versioning
 
-I used [Git](https://git-scm.com/) and [GitHub](http://github.com/) for versioning.
+* [Git](https://git-scm.com/)
+* [GitHub](http://github.com/)
 
 ## Authors
 
