@@ -19,14 +19,14 @@ Then open browser with localhost:8080
 
 ## Built With
 
-* [React.js] (https://reactjs.org/)
-* [SASS] (https://sass-lang.com/)
-* [WebPack] (https://webpack.js.org/)
-* [Redux] (https://redux.js.org/)
-* [react-redux] (https://react-redux.js.org/)
-* [NPM] (https://npmjs.com/)
-* [Babel] (https://babeljs.io/)
-* [Firebase] (https://firebase.google.com/)
+* [React.js](https://reactjs.org/)
+* [SASS](https://sass-lang.com/)
+* [WebPack](https://webpack.js.org/)
+* [Redux](https://redux.js.org/)
+* [react-redux](https://react-redux.js.org/)
+* [NPM](https://npmjs.com/)
+* [Babel](https://babeljs.io/)
+* [Firebase](https://firebase.google.com/)
 
 ## Versioning
 
