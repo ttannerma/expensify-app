@@ -1,6 +1,6 @@
 # Expensify App
 
-Indecision app lets you add todo's and then you can let the app decide what you should do!
+Expensify app helps you to track your expenses.
 
 # Getting started
 
