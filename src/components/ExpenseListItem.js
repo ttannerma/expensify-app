@@ -1,12 +1,39 @@
 import React from 'react'
-import { removeExpense } from '../actions/expenses'
-import { connect } from 'react-redux'
 import { Link } from 'react-router-dom'
+import moment from 'moment'
+import numeral from 'numeral'
+
+// load a locale
+numeral.register('locale', 'fi', {
+    delimiters: {
+        thousands: ' ',
+        decimal: ','
+    },
+    abbreviations: {
+        thousand: 'k',
+        million: 'm',
+        billion: 'b',
+        trillion: 't'
+    },
+    ordinal : function (number) {
+        return number === 1 ? 'euro' : 'euros';
+    },
+    currency: {
+        symbol: '€'
+    }
+});
+
+// switch between locales
+numeral.locale('fi');
 
 const ExpenseListItem = ({description, amount, createdAt, id}) => (
     <div>
         <Link to={`/edit/${id}`}>{description}</Link>
-        <p>{amount} - {createdAt}</p>
+        <p>
+        {numeral(amount / 100).format('$0,0.00')}
+        -
+        {moment(createdAt).format('MMMM Do, YYYY')}
+        </p>
     </div>
 )
 
