@@ -16,7 +16,7 @@ numeral.register('locale', 'fi', {
         trillion: 't'
     },
     ordinal : function (number) {
-        return number === 1 ? 'eurou' : 'euros';
+        return number === 1 ? 'euro' : 'euros';
     },
     currency: {
         symbol: '€'

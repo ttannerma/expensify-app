@@ -49,7 +49,7 @@ class ExpenseListFilters extends React.Component {
         )
     }
 }
-const  mapStateToProps = ({ filters }) => {
+const mapStateToProps = ({ filters }) => {
     return {
         filters
     }
